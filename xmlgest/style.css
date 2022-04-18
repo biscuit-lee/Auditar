@@ -1,0 +1,35 @@
+@font-face {
+	font-family: "Rockit";
+	src: url("fonts/Rockit.ttf");
+}
+
+.title {font-size: 14px;}
+.text {font-size: 14px;}
+a:link {COLOR: #4b4b4b;font-size:12px;TEXT-DECORATION: none}
+a:visited {COLOR: #4b4b4b;font-size:12px;TEXT-DECORATION: none}
+a:hover {COLOR: #4b4b4b;font-size:12px;TEXT-DECORATION: underline}
+
+
+form {
+    display: inline-block;
+	width:50%;
+
+	position: absolute;
+	left: 25%;
+
+
+}
+
+h2{
+	font-family:Rockit;
+}
+
+center{
+	text-align: center;
+	
+}
+
+textarea {
+  resize: none;
+}
+

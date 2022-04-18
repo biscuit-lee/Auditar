@@ -1,0 +1,224 @@
+.checked {
+  color: red;
+
+}
+
+@font-face {
+	font-family: "Rockit";
+	src: url("fonts/Rockit.ttf");
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+	
+}
+
+.blac{
+	color:black;
+}
+h1{
+	font-family:Rockit;
+}
+
+h2{
+	font-family:Rockit;
+}
+
+/* fixa padding problem */
+.pad{
+	padding:0px;
+	margin:0px;
+}
+
+/*först container */
+.con1{
+  
+  justify-content: center;
+  text-align:center;
+  display:flex;
+  margin:0px;
+
+}
+
+
+
+.img1{
+	width:100%;
+	margin:0px;	  
+	background-size: cover;
+	padding:0px;
+
+}
+
+
+/*klass för länkar och texter över bilderna*/
+.ConlinkContainer{
+	position: absolute;
+	z-index:92;
+	top:20%;
+	left:60%;
+	
+}
+.ConlinkContainer2{
+	position: absolute;
+	z-index:92;
+	top:15%;
+	left:50%;
+}
+
+
+
+a:hover {
+	text-decoration: none;
+	color:blue;
+}
+
+a,a:hover,a:active,a:visited,a:focus {
+	text-decoration:none;
+}
+
+a:visited{
+	color:black;
+}
+
+/* anpassa logon på meny */
+.logo-img{
+	height:50px;
+	margin-top:5px;
+	margin-left: 30px;
+	
+}
+
+
+
+/*först container */
+.con1{
+	 
+	justify-content: center;
+	text-align:center;
+	display:flex;
+	margin:0px;
+	margin:0;
+	padding;0;
+}
+
+/* andra container*/
+
+.con2{
+
+}
+
+.con3{
+
+}
+
+/* credit container */
+
+
+
+.center{
+	margin-left:100px;
+	text-align:right;
+}
+
+.padd{
+	margin:10px;
+	text-align:center;
+}
+
+/*hamburgare ikon (ska bli synlight för mobiler) */
+#burger{
+	margin-top:20px;
+	display:none;
+	height:40px;
+	
+}
+
+
+/*media för responsiv websidan */
+
+@media only screen and (max-width: 1200px) {
+	#burger{
+		display:block;
+		text-align:right;
+	}
+
+	.navbar{
+		display:none;
+	}
+	
+	/* styla saker i dropdown om skärmen är mindre än 992 */
+	
+	.drop1{
+		text-align:left;
+	}
+	
+	.drop2{
+		text-align:left;
+	}
+	
+	.drop3{
+		text-align:left;
+	}
+	
+	
+	.dropContent{
+		width:100%;
+	}
+
+}
+
+
+}
+
+.center{
+	text-align:center;
+	padding-left:100px;
+}
+
+
+/* form style  */ 
+
+.formCon{
+	margin-left:auto;
+}
+
+.form{
+	width:50%;
+	margin:auto;
+	margin-top:auto;
+	padding:20px;
+}
+
+.field1{
+	margin-top:40px;
+	border-bottom: 2px solid purple;
+}
+
+.field2{
+	border:2px solid purple;
+	margin:2px;
+	padding:2px;
+}
+
+
+
+/*sylists dokument */
+
+
+
+.emp{
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center;
+  margin-top:30px;
+}
+
+
+
+
+

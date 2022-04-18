@@ -1,0 +1,94 @@
+
+@font-face {
+	font-family: "Rockit";
+	src: url("fonts/Rockit.ttf");
+}
+
+input{
+	margin:10 px;
+	background-color:white;
+}
+
+
+
+td,th {
+  /*border-top: 1px solid black;*/
+  margin:5px;
+  padding:10px;
+}
+
+.table1{
+	width: 100%;
+	/*border-collapse: collapse;*/
+
+}
+
+.center{
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
+}
+
+.link{
+	background-color: white;
+	color: black;
+	border: 2px solid #E40A2D;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+a.link:hover{
+	background-color:#E40A2D;
+	color:white;
+
+}
+
+a.andraLink:hover{
+	border-bottom: 5px solid green;
+	
+}
+
+a.andraLink{  
+	text-decoration: none;
+	color:gray;
+}
+
+a.raderaLink{
+	color:gray;
+}
+
+a.raderaLink:hover{
+	border-bottom: 5px solid red;
+}
+.linkContainer{
+	text-align:center;
+	margin-top:15%;
+	
+}
+
+.jumbotron{
+	
+	margin-top:100px;
+	width:100%;
+	/*background-image: url('image/chrismas_cover.jpg');
+	background-repeat: no-repeat; 
+	background-size: cover;
+	*/
+}
+
+.t2{
+	width: 25%;
+	border-collapse: collapse;
+}
+
+
+input{
+	size:20px;
+}
+
+a{
+	background-color:white;
+	text-decoration:none;
+	margin:10px;	
+}
